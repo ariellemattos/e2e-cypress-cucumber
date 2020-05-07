@@ -1,4 +1,4 @@
 {
-  "baseUrl": "http://localhost:80",
+  "baseUrl": "http://webpopcorn.herokuapp.com",
   "chromeWebSecurity": false
 }
