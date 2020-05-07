@@ -1,7 +1,7 @@
 /* global Given, Then, When */
 
 Given("acesso a pagina de login", () => {
-    cy.visit('http://webpopcorn.herokuapp.com/')
+    cy.visit('/')
 })
 
 When("realizo login com ariellemattos e 101010", () => {
