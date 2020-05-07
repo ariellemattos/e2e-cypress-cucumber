@@ -8,6 +8,7 @@ pipeline{
     stage("Build"){
       steps{
         sh "npm install"
+        sh "npm install cypress --save-dev"
       }
     }
     stage("Test"){
