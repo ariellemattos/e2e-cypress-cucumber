@@ -2,7 +2,7 @@ pipeline{
   agent {
     // this image provides everything needed to run Cypress
     docker {
-      image 'cypress/base:10'
+      image "node:8-alpine"
     }
   }
   stages{
